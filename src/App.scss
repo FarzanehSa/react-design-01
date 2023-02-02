@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/ostrich-sans-inline');
+
 .hello-world-page {
   cursor: none;
   display: flex;
@@ -6,8 +8,10 @@
   height: 100vh;
   background-color: seagreen;
 
+
   .title {
     font-size: 10rem;
+    // font-family: 'Ostrich Sans Inline', sans-serif;
   }
 
   .cursor {
@@ -24,6 +28,7 @@
 
 .text-animation-page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -32,6 +37,7 @@
   background-size: 600% 100%;
   animation: gradient 16s linear infinite;
   animation-direction: alternate;
+  position: relative;
 
   .title {
     background: linear-gradient(90deg, #730040 0%, #301cbe 100%);
@@ -52,8 +58,32 @@
     animation-fill-mode:forwards;
   }
 
-  .tAnime {
+  .social {
+    position: relative;
+    width: 100%;
+  }
 
+
+
+  .linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    // background: white;
+    // animation: rotate 10s alternate;
+    // animation:
+    // 1s linear 0s infinite alternate rise,
+    /* bounce 'overwrites' the transform set by rise */
+    // 10s linear 0s infinite alternate bounce;
+    /* hence the sun only moves horizontally */
+    // position: absolute;
+    // left: 0px;
+  }
+
+  .tAnime {
     .span {
       background: linear-gradient(90deg, #ffd7ff 0%, #ffb6ff 100%);
       background-clip: text;
@@ -152,4 +182,38 @@
     100% {background-position: 100%;}
     
   }
+
+  // @keyframes rotate {
+  //   0% {
+  //     left: -20px;
+  //     // transform: rotate(0);
+  //   }
+  //   100% {
+  //     left: 20px;
+  //     // transform: rotate(360deg);
+  //   }
+  // }
+
+  // @keyframes rise {
+  //   from {
+  //     // transform: translateY(110vh);
+  //     transform: rotate(0);
+  //   }
+  //   to {
+  //     // transform: translateY(0);
+  //     transform: rotate(360deg);
+  //   }
+  // }
+  
+  // @keyframes bounce {
+  //   from {
+  //     transform: translateX(-50vw);
+  //     // transform: rotate(0);
+  //   }
+  //   to {
+  //     transform: translateX(50vw);
+  //     // transform: rotate(360deg);
+  //   }
+  // }
+  
 }
