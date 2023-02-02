@@ -215,5 +215,40 @@
   //     // transform: rotate(360deg);
   //   }
   // }
-  
+}
+
+.line-animation-page {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #222222;
+  position: relative;
+
+  .test {
+    position: absolute;
+  }
+
+  .btn {
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+
+  circle,
+  rect,
+  line {
+  stroke-width: 1px;
+  stroke-linecap: round;
+  fill: transparent;
+  }
+
+  // .ini {
+  //   display: none;
+  // }
+  // .show {
+  //   display: flex;
+  // }
+
 }

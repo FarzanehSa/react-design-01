@@ -3,6 +3,7 @@ import { Routes, Route, NavLink, Navigate, useNavigate } from 'react-router-dom'
 
 import Home from './Home';
 import TextAnimation from './TextAnimation';
+import LineAnimation from './LineAnimation';
 import HelloWorld from './HelloWorld';
 import './App.scss';
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/hello' element={<HelloWorld />} />
         <Route path='/text-animation' element={<TextAnimation />} />
+        <Route path='/line-animation' element={<LineAnimation />} />
       </Routes>
     </div>
   );
