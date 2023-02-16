@@ -24,6 +24,7 @@ const Home = () => {
       <button onClick={() => {navigate('/hello')}}>Hello</button>
       <button onClick={() => {navigate('/text-animation')}}>Text Animation</button>
       <button onClick={() => {navigate('/line-animation')}}>Line Animation</button>
+      <button onClick={() => {navigate('/cube')}}>Cube</button>
       <button className="btn-primary" onClick={()=> setOpen(true)}>VIEW DEMO</button>
     </div>
   )
