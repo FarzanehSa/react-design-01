@@ -371,3 +371,13 @@
     font-size: 1.5rem;
   }
 }
+
+.robot {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}

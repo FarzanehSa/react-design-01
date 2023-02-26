@@ -7,6 +7,7 @@ import LineAnimation from './LineAnimation';
 import HelloWorld from './HelloWorld';
 import Cube from './Cube';
 import City from './City';
+import Robot from './Robot';
 import './App.scss';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/text-animation' element={<TextAnimation />} />
         <Route path='/line-animation' element={<LineAnimation />} />
         <Route path='/cube' element={<Cube />} />
+        <Route path='/robot' element={<Robot />} />
         <Route path='/search-list' element={<City />} />
       </Routes>
     </div>
